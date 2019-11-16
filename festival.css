@@ -1,0 +1,10 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwxMeEweMm4F0yQCu58HWsGAxHmh9n452nSVJY2Vi5H6NY97i4hQ&s");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+div {
+    background-color: white
+} 
