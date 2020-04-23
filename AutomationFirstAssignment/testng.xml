@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteListenerTestNg">
+	<listeners>
+		<listener class-name="com.aa.Reports.Listeners" />
+	</listeners>
+	
+	<test name="CheckOutTest">
+		<classes>
+		<class name="com.aa.homepagetest.HomePageTest"></class>
+		<class name="com.aa.loginpagetest.LoginPageTest"></class>
+		<class name="com.aa.productdetailpagetest.ProductDetailTest"></class>
+		<class name="com.aa.addproducttocartpagetest.AddProductToCartTest"></class>
+		<class name="com.aa.shoppingcartsummarypagetest.ShoppingCartSummaryTest"></class>
+		<class name="com.aa.processaddresspagetest.ProcessAddressTest"></class>
+		<class name="com.aa.shippingpagetest.ShippingTest"></class>
+		<class name="com.aa.paymentoptionpagetest.PaymentOptionTest"></class>
+		<class name="com.aa.confirmorderpagetest.ConfirmOrderTest"></class>
+<!-- 			<class name="com.aa.base.OneTestForAll"></class>	
+ -->		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
